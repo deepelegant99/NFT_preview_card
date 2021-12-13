@@ -17,7 +17,7 @@ body {
 
 body .card {
   width: 300px;
-  height: 500px;
+  height: 520px;
   margin: auto;
   border-radius: 1em;
   background-color: hsl(216, 50%, 16%);
@@ -65,7 +65,7 @@ p.m2{
   color:hsl(215, 51%, 70%);
   font-weight: 100;
   margin: 1em 0em;
-  font-size: .9em;
+  font-size: .8em;
   display: inline-flex;
 }
 
@@ -73,21 +73,28 @@ p.name{
   color: hsl(0, 0%, 100%);
   font-weight: 50;
   margin: 1em 0em;
-  font-size: .9em;
+  font-size: .8em;
   display: inline-flex;
 }
 
 img.avatar{
-  height: 25px;
-  width: 25px;
-  border-color: white;
-  border: white, 10px;
+  height: 30px;
+  width: 30px;
+  border-color: hsl(0, 0%, 100%);
+  border: 1px solid white;
+  border-radius: 1em;
+}
 
+hr{
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(215, 51%, 70%);
+  height: 2px;
 }
 
 .card .nearfooter{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 
 }
 
@@ -96,6 +103,18 @@ img.avatar{
 }
 .card .nearfooter .right {
     color:hsl(215, 51%, 70%);
+}
+
+.card .nearfooter .left img.icon{
+  height: .9em;
+  width: .9em;
+  display:inline-flex;
+}
+
+.card .nearfooter .right img.clock{
+  height: .9em;
+  width: .9em;
+  display:inline-flex;
 }
 /* p {
   color: hsl(215, 51%, 70%);
