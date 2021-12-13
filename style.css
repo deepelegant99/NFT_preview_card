@@ -61,6 +61,30 @@ p.message{
     font-size: .9em;
 }
 
+p.m2{
+  color:hsl(215, 51%, 70%);
+  font-weight: 100;
+  margin: 1em 0em;
+  font-size: .9em;
+  display: inline-flex;
+}
+
+p.name{
+  color: hsl(0, 0%, 100%);
+  font-weight: 50;
+  margin: 1em 0em;
+  font-size: .9em;
+  display: inline-flex;
+}
+
+img.avatar{
+  height: 25px;
+  width: 25px;
+  border-color: white;
+  border: white, 10px;
+
+}
+
 .card .nearfooter{
     display: flex;
     justify-content: space-between;
